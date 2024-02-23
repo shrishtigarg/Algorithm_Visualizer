@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+  } 
+  nav {
+    background-color: #1A202C;
+    color: #E2E8F0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60%;
+    grid-template-columns: 30% 60%;
+    -webkit-column-gap: 10%;
+    column-gap: 10%;
+    padding: 0% 5%;
+}  
+  nav .array-inputs {
+    -ms-grid-columns: 60% 40%;
+    grid-template-columns: 60% 40%;
+    place-content: center;
+    display: -ms-grid;
+    display: grid;
+    width: 110%;
+    padding: 5% 0%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+  nav .array-inputs .p {
+    font-size: xx-small;
+  }
+  nav .array-inputs #array_size {
+    padding: 2px 8px;
+  }
+  nav .array-inputs #array_speed {
+    padding: 5% 0%;
+  }
+  nav .array-inputs #array_generate {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 9% 0% 0% 0%;
+    padding-left: 7%;
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  nav .array-inputs #array_generate:hover {
+    cursor: pointer;
+    color: green;
+  }
+
+  nav .array-inputs .button-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 9% 0% 0% 0%;
+  }
+  
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    font-weight: bold;
+    padding: 3% 0%;
+  }
+  
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 16.66667% 16.66667% 16.66667% 16.66667% 16.66667% 16.66667%;
+    grid-template-columns: repeat(6, 16.66667%);
+    place-content: center;
+    padding: 2% 0%;
+}
+
+  
+  nav .header_right .algos button {
+    background-color: transparent;
+    border-radius: 12pt;
+    color: white;
+    outline: none;
+    padding: 5% 0%;
+    font-size: large;
+  }
+  
+  nav .header_right .algos button:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  section {
+    background-color: rgb(192, 207, 213);
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 60% 20%;
+        grid-template-columns: 20% 60% 20%;
+    height: 100vh;
+  }
+  
+  section .Complexity_Containers {
+    margin-top: 12%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions {
+    margin-top: 7%;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p {
+    display: inline;
+  }
+  
+  section .Complexity_Containers .Pair_Definitions p.Sub_Heading {
+    font-size: medium;
+    text-transform: none;
+  }
+  
+  section #Info_Cont1 {
+    padding: 20% 10% 0% 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  section #Info_Cont1 h3 {
+    font-size: large;
+  }
+
+  
+  section #array_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    align-items: flex-end;
+  }
+  
+  section #Info_Cont2 {
+    padding: 20% 10%;
+  }
+  
+  section #Info_Cont2 h3 {
+    font-size: large;
+  }
+  
+  .hide {
+    display: none;
+  }
